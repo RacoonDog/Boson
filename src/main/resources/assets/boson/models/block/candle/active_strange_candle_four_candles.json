@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_four_candles",
+  "textures": {
+    "all": "boson:block/active_strange_candle",
+    "particle": "boson:block/active_strange_candle"
+  }
+}

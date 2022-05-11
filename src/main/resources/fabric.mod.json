@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "boson",
+  "version": "${version}",
+  "name": "Boson Fabricated",
+  "description": "A modular vanilla plus mod in the style of Quark and Charm.",
+  "authors": [
+    {
+      "name": "Crosby",
+      "contact": {
+        "discord": "https://discord.gg/3GxfGcAJBN"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/boson-fabricated",
+    "sources": "https://github.com/RacoonDog/Boson",
+    "issues": "https://github.com/RacoonDog/Boson/issues",
+    "discord": "https://discord.gg/3GxfGcAJBN"
+  },
+  "license": "LGPL-2.1",
+  "icon": "assets/boson/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.racoondog.boson.Boson"
+    ],
+    "client": [
+      "io.github.racoondog.boson.client.BosonClient"
+    ],
+    "modmenu": [
+      "io.github.racoondog.boson.config.ModMenu"
+    ]
+  },
+  "mixins": [
+    "boson.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.0",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17",
+    "advanced_runtime_resource_pack": "*",
+    "cloth-config": "*"
+  }
+}

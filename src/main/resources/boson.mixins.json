@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.racoondog.boson.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "hardnessBasedBlockItemDamage.BlockItemMixin",
+    "BrewingRecipeRegistryInvoker",
+    "dispenserPlacesBlocks.ItemDispenserBehaviorMixin",
+    "stopZombifiedPiglinSpawning.NetherPortalBlockMixin",
+    "piglinDontAttackNetherite.PiglinBrainMixin",
+    "animalRunSpeed.ChickenEntityMixin",
+    "animalRunSpeed.CowEntityMixin",
+    "animalRunSpeed.FishEntityMixin",
+    "animalRunSpeed.PigEntityMixin",
+    "animalRunSpeed.SheepEntityMixin",
+    "bedExplosionMultiplier.BedBlockMixin",
+    "devenv.ARRPMixin",
+    "hoeDamage.ItemsMixin",
+    "moreInstrumentBlocks.InstrumentMixin",
+    "netherFireDamageMultiplier.EntityMixin",
+    "smartToolDurability.HoeItemMixin",
+    "smartToolDurability.ShovelItemMixin",
+    "survivalInventoryTrash.InventoryScreenMixin",
+    "survivalInventoryTrash.PlayerScreenHandlerMixin",
+    "throwableSpawnEggs.DispenserBehaviorMixin",
+    "throwableSpawnEggs.SpawnEggItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
