@@ -4,10 +4,8 @@ import io.github.racoondog.boson.Boson;
 import io.github.racoondog.boson.config.ModConfig;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 import org.jetbrains.annotations.NotNull;
 
-import static io.github.racoondog.boson.Boson.CONFIG;
 import static io.github.racoondog.boson.Boson.LOGGER;
 
 public final class Util {

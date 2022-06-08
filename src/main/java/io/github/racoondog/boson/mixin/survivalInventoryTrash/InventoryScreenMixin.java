@@ -11,7 +11,6 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.screen.PlayerScreenHandler;
 import net.minecraft.screen.slot.Slot;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
@@ -25,7 +24,7 @@ import static io.github.racoondog.boson.Boson.CONFIG;
 @Mixin(InventoryScreen.class)
 public abstract class InventoryScreenMixin extends AbstractInventoryScreen<PlayerScreenHandler> implements RecipeBookProvider {
     @Unique
-    private static final Text DELETE_ITEM_SLOT_TEXT = new TranslatableText("inventory.binSlot");
+    private static final Text DELETE_ITEM_SLOT_TEXT = Text.translatable("inventory.binSlot");
 
     @Unique
     private static final Identifier BACKGROUND_TEXTURE_WITH_TRASH = Util.id("textures/gui/inventory_with_trash.png");

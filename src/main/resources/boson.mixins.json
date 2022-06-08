@@ -23,7 +23,6 @@
     "smartToolDurability.ShovelItemMixin",
     "survivalInventoryTrash.InventoryScreenMixin",
     "survivalInventoryTrash.PlayerScreenHandlerMixin",
-    "throwableSpawnEggs.DispenserBehaviorMixin",
     "throwableSpawnEggs.SpawnEggItemMixin"
   ],
   "injectors": {

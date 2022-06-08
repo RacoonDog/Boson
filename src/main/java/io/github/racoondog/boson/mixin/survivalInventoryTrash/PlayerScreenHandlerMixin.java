@@ -1,7 +1,7 @@
 package io.github.racoondog.boson.mixin.survivalInventoryTrash;
 
-import io.github.racoondog.boson.util.TrashInventory;
 import io.github.racoondog.boson.util.DeleteItemSlotProvider;
+import io.github.racoondog.boson.util.TrashInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.CraftingInventory;
